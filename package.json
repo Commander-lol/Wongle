@@ -4,10 +4,11 @@
   "description": "A Middleware Based TCP Server",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel --watch=./src --out-dir=./lib"
+    "build": "babel --watch=./src --out-dir=./lib",
+    "prepublish": "babel ./src -d ./lib"
   },
   "keywords": [],
-  "author": "",
+  "author": "Louis Capitanchik <contact@louiscap.co>",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "babel-cli": "^6.16.0",
