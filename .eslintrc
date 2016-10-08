@@ -1,0 +1,30 @@
+{
+	"ecmaFeatures": {
+		"jsx": false,
+		"modules": false
+	},
+	"env": {
+		"browser": false,
+		"es6": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"plugins": ["flowtype"],
+	"extends": "eslint:recommended",
+	"rules": {
+		"eol-last": 2,
+		"max-len": [1, 140, 4],
+		"indent": [2, "tab", { "SwitchCase": 1 }],
+		"no-underscore-dangle": [0],
+		"no-var": 2,
+		"no-console": 1,
+		"semi": [2, "never"],
+		"no-unexpected-multiline": 2,
+		"comma-dangle": [2, "always-multiline"],
+		"quotes": [2, "single"],
+		"space-before-function-paren": [2, {
+			"anonymous": "always",
+			"named": "never"
+		}]
+	}
+}
